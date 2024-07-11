@@ -3,7 +3,7 @@
 # QGIS
 GIS using QGIS
 
-Pratice #1 \
+Pratice #1
 
 Basemap and NYC Public Parks with Bike Routes
 
