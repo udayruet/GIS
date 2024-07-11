@@ -1,3 +1,5 @@
+<meta http-equiv="refresh" content="0; url=[https://repo.github.io/folder/index.html](https://github.com/udayruet/QGIS_Practice/blob/main/Practice%202/index.html)">
+
 # QGIS
 GIS using QGIS
 
