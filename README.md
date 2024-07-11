@@ -1,2 +1,2 @@
-# GIS
+# QGIS
 GIS using QGIS
