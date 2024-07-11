@@ -1,0 +1,251 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "DEM_35363e8d_23e5_4a9c_814b_44365a64343a": {
+        "enabled": true,
+        "groups": []
+      },
+      "OUTPUT_0251296a_7c1e_4aed_9e9e_c54d40313ebd": {
+        "enabled": true,
+        "groups": []
+      },
+      "River_Network_88c5a2d6_26f2_4aa9_bc75_856f18b8a573": {
+        "enabled": true,
+        "groups": []
+      },
+      "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:9a9e7311": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 2,
+      "layerId": "River_Network_88c5a2d6_26f2_4aa9_bc75_856f18b8a573",
+      "name": "River_Network",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_0251296a_7c1e_4aed_9e9e_c54d40313ebd",
+      "name": "Output",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": true,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          255,
+          218,
+          115,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
+        "horizontalSlider_DEMSize": 3,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "a8497e0f",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "2048",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "a8497e0f",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
+      "name": "Watershed_Boundary",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_35363e8d_23e5_4a9c_814b_44365a64343a",
+      "name": "DEM",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "32eea751",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "32eea751",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:9a9e7311",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "f91fb455",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "f91fb455",
+        "spinBox_Size": 3
+      },
+      "visible": false
+    }
+  ],
+  "OPT": {},
+  "OutputFilename": "F:/QGIS_Practice/Practice 2\\index.html",
+  "Template": "3DViewer.html",
+  "Title": "3D Elevated Mapdata : Malyasia",
+  "Version": 20703,
+  "WIDGETS": {
+    "Label": {
+      "Footer": "Visualized by Uday Karmoker",
+      "Header": "3D Elevated Mapdata : Malyasia "
+    },
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
