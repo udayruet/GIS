@@ -5,11 +5,15 @@
     },
     "enabled": false,
     "layers": {
+      "Clipped_Malaysia_Data_c153c125_57bc_442d_b4c2_2ad288250dab": {
+        "enabled": true,
+        "groups": []
+      },
       "DEM_35363e8d_23e5_4a9c_814b_44365a64343a": {
         "enabled": true,
         "groups": []
       },
-      "OUTPUT_0251296a_7c1e_4aed_9e9e_c54d40313ebd": {
+      "OUTPUT_f9276894_49fa_4f2c_a7ba_9f0a031748ab": {
         "enabled": true,
         "groups": []
       },
@@ -80,57 +84,17 @@
     },
     {
       "geomType": 0,
-      "layerId": "OUTPUT_0251296a_7c1e_4aed_9e9e_c54d40313ebd",
+      "layerId": "Clipped_Malaysia_Data_c153c125_57bc_442d_b4c2_2ad288250dab",
+      "name": "Clipped Malaysia Data",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_f9276894_49fa_4f2c_a7ba_9f0a031748ab",
       "name": "Output",
-      "properties": {
-        "checkBox_Clickable": true,
-        "checkBox_Clip": false,
-        "checkBox_Frame": false,
-        "checkBox_Sides": true,
-        "checkBox_Tiles": false,
-        "checkBox_Visible": true,
-        "checkBox_Wireframe": false,
-        "colorButton_Edge": [
-          0,
-          0,
-          0,
-          255
-        ],
-        "colorButton_Side": [
-          255,
-          218,
-          115,
-          255
-        ],
-        "colorButton_Wireframe": [
-          0,
-          0,
-          0,
-          255
-        ],
-        "comboBox_ClipLayer": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
-        "horizontalSlider_DEMSize": 3,
-        "lineEdit_Bottom": "0",
-        "lineEdit_Name": "",
-        "materials": [
-          {
-            "id": "a8497e0f",
-            "name": "map (canvas)",
-            "properties": {
-              "checkBox_Shading": true,
-              "checkBox_TransparentBackground": false,
-              "comboBox_TextureSize": "2048",
-              "radioButton_PNG": true,
-              "spinBox_Opacity": 100
-            },
-            "type": 0
-          }
-        ],
-        "mtlId": "a8497e0f",
-        "spinBox_Roughening": 1,
-        "spinBox_Size": 3
-      },
-      "visible": true
+      "properties": {},
+      "visible": false
     },
     {
       "geomType": 3,
@@ -233,7 +197,21 @@
       "visible": false
     }
   ],
-  "OPT": {},
+  "OPT": {
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 798923.3475893101,
+        "y": 489088.1868264103,
+        "z": 0.0
+      },
+      "pos": {
+        "x": 824867.9075144078,
+        "y": 397821.8214384745,
+        "z": 58428.406782203296
+      }
+    }
+  },
   "OutputFilename": "F:/QGIS_Practice/Practice 2\\index.html",
   "Template": "3DViewer.html",
   "Title": "3D Elevated Mapdata : Malyasia",

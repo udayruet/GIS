@@ -1,0 +1,393 @@
+{
+  "CAMERA": "PERSPECTIVE",
+  "KEYFRAMES": {
+    "camera": {
+      "groups": [
+        {
+          "enabled": true,
+          "keyframes": [
+            {
+              "camera": {
+                "fx": 791815.0,
+                "fy": 488579.671875,
+                "fz": 1237.3679809570312,
+                "x": 854003.924139405,
+                "y": 432703.21341829526,
+                "z": 8891.68754398802
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 1",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 791815.0,
+                "fy": 488579.671875,
+                "fz": 1237.3679809570312,
+                "x": 826552.9749102436,
+                "y": 503251.2274455749,
+                "z": 6089.9620628637695
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 2",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 791815.0,
+                "fy": 488579.671875,
+                "fz": 1237.3679809570312,
+                "x": 818017.5341795112,
+                "y": 435556.4173958384,
+                "z": 4223.665156545154
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 3",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 791815.0,
+                "fy": 488579.671875,
+                "fz": 1237.3679809570312,
+                "x": 868149.3361683512,
+                "y": 439250.5501342103,
+                "z": 10444.839436434751
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 4",
+              "type": 128
+            }
+          ],
+          "name": "Group",
+          "type": 64
+        }
+      ]
+    },
+    "enabled": false,
+    "layers": {
+      "OUTPUT_f9276894_49fa_4f2c_a7ba_9f0a031748ab": {
+        "enabled": true,
+        "groups": []
+      },
+      "River_Network_88c5a2d6_26f2_4aa9_bc75_856f18b8a573": {
+        "enabled": true,
+        "groups": []
+      },
+      "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:9a9e7311": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 2,
+      "layerId": "River_Network_88c5a2d6_26f2_4aa9_bc75_856f18b8a573",
+      "name": "River_Network",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_f9276894_49fa_4f2c_a7ba_9f0a031748ab",
+      "name": "DEM Malaysia",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": true,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          255,
+          227,
+          199,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
+        "horizontalSlider_DEMSize": 6,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b585206e",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "2048",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "b585206e",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Watershed_Boundary_0de23c77_fe4e_41bc_ab1b_bd97e2601e77",
+      "name": "Watershed_Boundary",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"OBJECTID\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:9a9e7311",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "f91fb455",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "4096",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "f91fb455",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "OPT": {
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 791815.0,
+        "y": 488579.671875,
+        "z": 1237.3679809570312
+      },
+      "pos": {
+        "x": 837907.7968863143,
+        "y": 425767.7127760599,
+        "z": 11003.570854033807
+      }
+    }
+  },
+  "OutputFilename": "F:/QGIS Projects/QGIS_ElevatedMalaysia\\index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": false,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "797417.4258289827",
+    "lineEdit_CenterY": "488733.46276147594",
+    "lineEdit_Height": "113107.89094254677",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "113107.89094254677",
+    "lineEdit_zFactor": "5",
+    "radioButton_Color": true,
+    "radioButton_FixedExtent": true,
+    "radioButton_WGS84": true,
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer.html",
+  "Title": "3D Elevated Mapdata : Malyasia",
+  "Version": 20703,
+  "WIDGETS": {
+    "Label": {
+      "Footer": "Visualized by Uday Karmoker",
+      "Header": "3D Elevated Mapdata : Malyasia "
+    },
+    "NorthArrow": {
+      "color": "0x179f64",
+      "visible": true
+    }
+  }
+}
